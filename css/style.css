@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* #regionMenu */
+.header {
+  width: 100%;
+  background-color: #fec63e;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+}
+
+.header-menu {
+  text-align: right;
+}
+
+.header-menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.header-menu ul li a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 14px;  
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header-menu ul li a:hover {
+  color:#fff;
+}
+/* #Endregion */
