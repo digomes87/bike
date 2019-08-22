@@ -7,6 +7,22 @@ p {
   font-size: 14px;
   line-height: 20px;
 }
+
+.btn {
+  border: solid 3px #fec63e;
+  padding: 10px 30px;
+  color: #fec63e;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+}
+
+.btn:hover {
+  color: #fff;
+  border-color: #fff;
+}
 /* #regionMenu */
 .header {
   width: 100%;
@@ -63,9 +79,26 @@ p {
   max-width: 320px;
   color: #fff;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .quote-externo p {
   font-style: italic;
+}
+
+.quote-externo p::before, .quote-externo p::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 10px auto 10px auto;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: .1em;
 }
 /* #Endregion */
