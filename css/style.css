@@ -23,6 +23,30 @@ p {
   color: #fff;
   border-color: #fff;
 }
+.btn.btn-black:hover {
+  color: #000;
+  border-color: #000;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitle::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px auto;
+}
 /* #regionMenu */
 .header {
   width: 100%;
@@ -30,6 +54,7 @@ p {
   padding: 15px 0;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
 .header-menu {
@@ -102,3 +127,49 @@ p {
   letter-spacing: .1em;
 }
 /* #Endregion */
+
+.products {
+  padding: 60px 0;
+}
+
+.products-list li {
+  background: #fec63e;
+  text-align: center;
+}
+
+.products-list li h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 14px;
+}
+
+.products-list li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 2px auto;
+}
+
+.products-list li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.products-list-img {
+  background: #000;
+  padding: 20px;
+}
+
+.call-to-action {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+
+.call-to-action p {
+  margin-bottom: 30px;
+}
