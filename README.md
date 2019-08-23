@@ -1,5 +1,6 @@
-# bike
-Projeto solo para desenvolver minhas habilidades com css e html.
-Author Diego Go
 
-..
+Projeto faz parte do curso da Origamid
+
+Author: Diego Gomes Twitter: @DevDiegoGo
+
+Visualize o Projeto Aqui
