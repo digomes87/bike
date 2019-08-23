@@ -93,6 +93,12 @@ img {
   padding: 10px 0;
 }
 
+.footer-rede ul li a {
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 8px;
+}
+
 .header-menu ul li a:hover {
   color: #fff;
 }
@@ -196,6 +202,11 @@ img {
   background: #fec63e;
 }
 
+.footer-rede ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .portfolio-list li:last-child {
   margin-top: 20px;
 }
@@ -272,17 +283,6 @@ img {
   font-size: 14px;
   line-height: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.footer-rede ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.footer-rede ul li a {
-  border: 3px solid #fec63e;
-  display: block;
-  padding: 8px;
 }
 
 .footer-rede ul li a:hover {
