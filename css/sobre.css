@@ -5,3 +5,5 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+/* webkit for fix error with img */
