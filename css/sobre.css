@@ -3,4 +3,10 @@
   background-size: cover;
 }
 
-/* webkit for fix error with img */
+.missao-sobre {
+  padding-top: 60px;
+}
+
+.foto-equipe {
+  padding-top: 40px;
+}
