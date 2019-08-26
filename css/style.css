@@ -13,6 +13,14 @@ img {
   margin: 0 auto;
 }
 
+.menu-ativo  ul li a:hover {
+  color: #fff;
+}
+
+.header-menu ul li a.menu-ativo {
+  color: #fff;
+}
+
 .btn {
   border: solid 3px #fec63e;
   padding: 10px 30px;
