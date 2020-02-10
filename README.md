@@ -1,6 +1,6 @@
 # bike
 
-Projeto faz parte do curso da <a href="https://www.origamid.com" target="_blank">Origamid</a>
+Project make durante at curse <a href="https://www.origamid.com" target="_blank">Origamid</a>
 
 
 Author: Diego Gomes 
