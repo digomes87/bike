@@ -29,7 +29,10 @@ Like any back end programmer, my layouts have never been very beautiful, I have 
 
 ## About Me
 
-Diego Go – [@YourTwitter](https://twitter.com/@DevDiegoGo) – diego.gomes87@gmail.com
+Diego Go – [Twitter](https://twitter.com/@DevDiegoGo) 
+
+
+Contact - [Email: diego.gomes87@gmail.com](diego.gomes87@gmail.com)
 
 
 Github [https://github.com/digomes87](https://github.com/digomes87/) 
