@@ -1,6 +1,6 @@
 
 # Project Make for Sale Bike
-> This I build for sales and have in my portifolio, show how i can working.
+> I build this site both for sales and to include in my portfolio, in order to show how I work.
 
 
 
@@ -10,7 +10,7 @@ Here a simple image about this project
 
 ## Installation
 
-OS X ,Linux & Windons:
+OS X ,Linux & Windows:
 
 ```sh
   git clone https://github.com/digomes87/bike.git
@@ -19,11 +19,11 @@ OS X ,Linux & Windons:
 
 ## Usage example
 
-Like any back end programmer, my layouts have never been very beautiful, I have decided to change that, and since then I look for references, courses, and apply a little of that every day. Here is one of the results I liked the most.
+Like many back end programmers, my layouts have never been very beautiful. I decided to change that, and looked for design references and courses, then apply a little of that knowledge every day. Here is one of the results I liked the most.
 
 
 ## Development setup
-  Here in just a html css and javascript, you can use this, but for apply in a CMS you will need a web designer or developer for apply.
+  This is a front-end design made using HTML, CSS, and JavaScript. To apply with a CMS, you will need a web designer or developer to integrate it with a back-end.
 
 
 
@@ -37,7 +37,7 @@ Contact - [Email: diego.gomes87@gmail.com](diego.gomes87@gmail.com)
 
 Github [https://github.com/digomes87](https://github.com/digomes87/) 
 
-See Here this project [https://digomes87.github.io/bike/](Bike)
+See this project here: [https://digomes87.github.io/bike/](Bike)
 
 ## Contributing
 
