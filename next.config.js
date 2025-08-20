@@ -2,18 +2,38 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  
+  // Otimização de imagens
   images: {
-    domains: [],
     formats: ['image/webp', 'image/avif'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    minimumCacheTTL: 60,
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
+  
+  // Configurações experimentais
   experimental: {
-    optimizeCss: true,
+    // optimizeCss: true, // Removido temporariamente devido a problemas de dependência
   },
+  
+  // Configurações de build
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
+  
+  // Configurações de performance
+  poweredByHeader: false,
+  
+  // Redirecionamentos para URLs antigas
   async redirects() {
     return [
+      {
+        source: '/index.html',
+        destination: '/',
+        permanent: true,
+      },
       {
         source: '/portifolio.html',
         destination: '/portfolio',

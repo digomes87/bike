@@ -1,44 +1,108 @@
 
-# Project Make for Sale Bike
-> I build this site both for sales and to include in my portfolio, in order to show how I work.
+# Bikcraft - Next.js
 
+Projeto de um site de bicicletas customizadas migrado para Next.js com TypeScript.
 
+## 🚀 Tecnologias Utilizadas
 
-Here a simple image about this project
+- **Next.js 14** - Framework React para produção
+- **TypeScript** - Tipagem estática
+- **React 18** - Biblioteca para interfaces
+- **CSS3** - Estilização
+- **Next/Image** - Otimização de imagens
+- **Next/Head** - SEO e meta tags
 
-![](assets/bike.png)
+## 📁 Estrutura do Projeto
 
-## Installation
-
-OS X ,Linux & Windows:
-
-```sh
-  git clone https://github.com/digomes87/bike.git
+```
+src/
+├── components/          # Componentes reutilizáveis
+│   ├── Header.tsx      # Cabeçalho
+│   ├── Footer.tsx      # Rodapé
+│   ├── Layout.tsx      # Layout base
+│   ├── SEO.tsx         # Componente de SEO
+│   └── OptimizedImage.tsx # Componente de imagem otimizada
+├── hooks/              # Hooks customizados
+│   ├── useSimpleSlide.ts # Hook para slides
+│   └── useSimpleAnime.ts # Hook para animações
+├── pages/              # Páginas da aplicação
+│   ├── _app.tsx        # App principal
+│   ├── _document.tsx   # Document customizado
+│   ├── index.tsx       # Página inicial
+│   ├── sobre.tsx       # Página sobre
+│   ├── produtos.tsx    # Página de produtos
+│   ├── contato.tsx     # Página de contato
+│   └── portfolio.tsx   # Página de portfólio
+└── styles/             # Arquivos de estilo
+    ├── globals.css     # Estilos globais
+    └── *.css          # Estilos específicos
 ```
 
+## 🛠️ Como Executar
 
-## Usage example
+### Desenvolvimento
 
-Like many back end programmers, my layouts have never been very beautiful. I decided to change that, and looked for design references and courses, then apply a little of that knowledge every day. Here is one of the results I liked the most.
+```bash
+# Instalar dependências
+npm install
 
+# Executar em modo de desenvolvimento
+npm run dev
+```
 
-## Development setup
-  This is a front-end design made using HTML, CSS, and JavaScript. To apply with a CMS, you will need a web designer or developer to integrate it with a back-end.
+Acesse [http://localhost:3000](http://localhost:3000)
 
+### Produção
 
+```bash
+# Build para produção
+npm run build
 
-## About Me
+# Executar versão de produção
+npm start
+```
 
-Diego Go – [Twitter](https://twitter.com/@DevDiegoGo) 
+## 🌟 Funcionalidades
 
+- ✅ **Design Responsivo** - Adaptável a todos os dispositivos
+- ✅ **SEO Otimizado** - Meta tags e estrutura semântica
+- ✅ **Performance** - Otimização de imagens e código
+- ✅ **Animações** - Transições suaves e efeitos visuais
+- ✅ **TypeScript** - Tipagem estática para maior segurança
+- ✅ **Componentes Reutilizáveis** - Arquitetura modular
+- ✅ **Hooks Customizados** - Lógica reutilizável
+- ✅ **Formulário de Contato** - Com validação e feedback
+- ✅ **Slider de Citações** - Rotação automática de conteúdo
 
-Contact - [Email: diego.gomes87@gmail.com](diego.gomes87@gmail.com)
+## 🌐 Visualizar Projeto
 
+🔗 **[Ver projeto online](https://bike-ten-sooty.vercel.app)**
 
-Github [https://github.com/digomes87](https://github.com/digomes87/) 
+## 🚀 Deploy
 
-See this project here: [https://digomes87.github.io/bike/](Bike)
+O projeto está configurado para deploy na Vercel:
 
-## Contributing
+```bash
+# Deploy automático via Git
+git push origin main
+```
 
-Fork it (<https://github.com/digomes87/bike>)
+**URL de produção:** https://bike-ten-sooty.vercel.app
+
+## 📈 Melhorias Implementadas
+
+- **Migração para Next.js** - Framework moderno e otimizado
+- **TypeScript** - Maior segurança e produtividade
+- **Componentes React** - Reutilização e manutenibilidade
+- **Otimização de Imagens** - Carregamento lazy e formatos modernos
+- **SEO Avançado** - Meta tags dinâmicas e estrutura semântica
+- **Performance** - Code splitting e otimizações automáticas
+- **Hooks Customizados** - Lógica de negócio organizada
+
+## 👨‍💻 Autor
+
+Diego Gomes - [GitHub](https://github.com/digomes87)
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.

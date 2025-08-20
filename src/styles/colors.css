@@ -1,0 +1,54 @@
+/* Modern Color Palette for Bikcraft 2025 */
+/* Based on cycling industry trends and warm, inviting color schemes */
+
+:root {
+  /* Primary Colors - Modern cycling brand inspired */
+  --primary-blue: #2B5A87;        /* Deep ocean blue - trust and performance */
+  --primary-green: #4A7C59;       /* Forest green - nature and sustainability */
+  --primary-orange: #E67E22;      /* Energetic orange - adventure and action */
+  
+  /* Secondary Colors - Warm and inviting tones */
+  --secondary-teal: #16A085;       /* Modern teal - innovation */
+  --secondary-coral: #FF6B6B;      /* Coral accent - warmth and energy */
+  --secondary-sage: #95A5A6;       /* Sage gray - sophistication */
+  
+  /* Neutral Colors - Warm undertones */
+  --neutral-dark: #2C3E50;         /* Dark blue-gray - text and headers */
+  --neutral-medium: #34495E;       /* Medium gray-blue - secondary text */
+  --neutral-light: #ECF0F1;        /* Light warm gray - backgrounds */
+  --neutral-white: #FFFFFF;        /* Pure white - clean areas */
+  
+  /* Accent Colors - Modern cycling inspired */
+  --accent-yellow: #F1C40F;        /* Cycling yellow - highlights */
+  --accent-red: #E74C3C;           /* Alert red - important actions */
+  --accent-purple: #9B59B6;        /* Modern purple - premium feel */
+  
+  /* Gradient Colors */
+  --gradient-primary: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-green) 100%);
+  --gradient-secondary: linear-gradient(135deg, var(--secondary-teal) 0%, var(--primary-blue) 100%);
+  --gradient-warm: linear-gradient(135deg, var(--primary-orange) 0%, var(--secondary-coral) 100%);
+  
+  /* Shadow Colors */
+  --shadow-light: rgba(43, 90, 135, 0.1);
+  --shadow-medium: rgba(43, 90, 135, 0.2);
+  --shadow-dark: rgba(43, 90, 135, 0.3);
+  
+  /* Background Overlays */
+  --overlay-dark: rgba(44, 62, 80, 0.8);
+  --overlay-light: rgba(236, 240, 241, 0.9);
+}
+
+/* Color utility classes */
+.text-primary { color: var(--primary-blue); }
+.text-secondary { color: var(--primary-green); }
+.text-accent { color: var(--primary-orange); }
+.text-neutral { color: var(--neutral-dark); }
+
+.bg-primary { background-color: var(--primary-blue); }
+.bg-secondary { background-color: var(--primary-green); }
+.bg-accent { background-color: var(--primary-orange); }
+.bg-light { background-color: var(--neutral-light); }
+
+.gradient-primary { background: var(--gradient-primary); }
+.gradient-secondary { background: var(--gradient-secondary); }
+.gradient-warm { background: var(--gradient-warm); }
