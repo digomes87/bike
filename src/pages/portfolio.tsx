@@ -34,7 +34,7 @@ const Portfolio: React.FC = () => {
             <li className="grid-8">
               <div className="portfolio-item">
                 <Image 
-                  src="https://images.unsplash.com/photo-1544191696-15693072e0b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=460&q=80" 
+                  src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=460&q=80" 
                   alt="Vintage Retro Bicycle" 
                   width={460} 
                   height={340}
