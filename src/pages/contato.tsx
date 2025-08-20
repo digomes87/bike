@@ -131,11 +131,11 @@ const Contato: React.FC = () => {
         
         <div className="grid-16">
           <Image 
-            src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=940&q=80" 
-            alt="Modern Bike Workshop Location" 
-            width={940} 
-            height={400}
-          />
+              src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=940&q=80" 
+              alt="Modern Bike Workshop Location" 
+              width={940} 
+              height={340}
+            />
         </div>
       </section>
     </Layout>
