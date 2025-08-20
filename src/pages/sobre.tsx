@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Layout from '../components/Layout';
 
 const Sobre: React.FC = () => {
@@ -42,7 +41,7 @@ const Sobre: React.FC = () => {
           </ul>
         </div>
         <div className="grid-16">
-          <Image 
+          <img 
               src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=940&q=80" 
               alt="Professional Bicycle Workshop" 
               width={940} 
@@ -53,7 +52,7 @@ const Sobre: React.FC = () => {
 
       <section className="qualidade container">
         <h2 className="subtitle">Quality</h2>
-        <Image 
+        <img 
           src="/bikcraft-qualidade.svg" 
           alt="Bikcraft Quality" 
           width={300} 

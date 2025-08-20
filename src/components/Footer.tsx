@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 const Footer: React.FC = () => {
@@ -28,7 +27,7 @@ const Footer: React.FC = () => {
             <ul>
               <li>
                 <Link href="#">
-                  <Image 
+                  <img 
                     src="/redes-sociais/facebook.svg" 
                     alt="Facebook" 
                     width={32} 
@@ -38,7 +37,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link href="#">
-                  <Image 
+                  <img 
                     src="/redes-sociais/instagram.svg" 
                     alt="Instagram" 
                     width={32} 
@@ -48,7 +47,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link href="https://twitter.com/devdiegogo" target="_blank">
-                  <Image 
+                  <img 
                     src="/redes-sociais/twitter.svg" 
                     alt="Twitter" 
                     width={32} 

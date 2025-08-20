@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import Layout from '../components/Layout';
 import { useSimpleSlide } from '../hooks/useSimpleSlide';
@@ -55,7 +54,7 @@ const Home: React.FC = () => {
         <ul className="products-list">
           <li className="grid-1-3">
             <div className="products-list-img">
-              <Image 
+              <img 
                 src="/produtos/passeio.svg" 
                 alt="Bike Passeio" 
                 width={150} 
@@ -68,7 +67,7 @@ const Home: React.FC = () => {
 
           <li className="grid-1-3">
             <div className="products-list-img">
-              <Image 
+              <img 
                 src="/produtos/esporte.svg" 
                 alt="Bike Esporte" 
                 width={150} 
@@ -81,7 +80,7 @@ const Home: React.FC = () => {
 
           <li className="grid-1-3">
             <div className="products-list-img">
-              <Image 
+              <img 
                 src="/produtos/retro.svg" 
                 alt="Bike Retro" 
                 width={150} 
@@ -105,7 +104,7 @@ const Home: React.FC = () => {
           <h2 className="subtitle">Portfolio</h2>
           <ul className="portfolio-list">
             <li className="grid-8">
-              <Image 
+              <img 
                 src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=460&q=80" 
                 alt="Vintage Retro Bicycle" 
                 width={460} 
@@ -113,7 +112,7 @@ const Home: React.FC = () => {
               />
             </li>
             <li className="grid-8">
-              <Image 
+              <img 
                 src="https://images.unsplash.com/photo-1502744688674-c619d1586c9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=460&q=80" 
                 alt="City Leisure Bicycle" 
                 width={460} 
@@ -121,7 +120,7 @@ const Home: React.FC = () => {
               />
             </li>
             <li className="grid-16">
-              <Image 
+              <img 
                 src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=940&q=80" 
                 alt="High Performance Sport Bike" 
                 width={940} 
@@ -140,7 +139,7 @@ const Home: React.FC = () => {
 
       <section className="qualidade container">
         <h2 className="subtitle">Quality</h2>
-        <Image 
+        <img 
           src="/bikcraft-qualidade.svg" 
           alt="Qualidade Bike" 
           width={300} 

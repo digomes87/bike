@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 interface HeaderProps {
@@ -17,12 +16,11 @@ const Header: React.FC<HeaderProps> = ({ className = '' }) => {
     <header className={`header ${className}`}>
       <div className="container">
         <Link href="/" className="grid-4">
-          <Image 
+          <img 
             src="/bikcraft.svg" 
             alt="Bikcraft" 
             width={150} 
             height={50}
-            priority
           />
         </Link>
         <nav className="grid-12 header-menu">
