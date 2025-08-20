@@ -106,24 +106,24 @@ const Home: React.FC = () => {
           <ul className="portfolio-list">
             <li className="grid-8">
               <Image 
-                src="/portfolio/retro.jpg" 
-                alt="Retro" 
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=460&q=80" 
+                alt="Vintage Retro Bicycle" 
                 width={460} 
                 height={340}
               />
             </li>
             <li className="grid-8">
               <Image 
-                src="/portfolio/passeio.jpg" 
-                alt="Passeio" 
+                src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=460&q=80" 
+                alt="City Leisure Bicycle" 
                 width={460} 
                 height={340}
               />
             </li>
             <li className="grid-16">
               <Image 
-                src="/portfolio/esporte.jpg" 
-                alt="Esporte" 
+                src="https://images.unsplash.com/photo-1544191696-15693072e0b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=940&q=80" 
+                alt="Sport Racing Bicycle" 
                 width={940} 
                 height={340}
               />
