@@ -118,11 +118,11 @@ const Produtos: React.FC = () => {
         </div>
         <div className="grid-8">
           <Image 
-            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=380&q=80" 
-            alt="Vintage Style Bicycle Detail" 
-            width={380} 
-            height={280}
-          />
+                src="https://images.unsplash.com/photo-1544191696-15693072e0b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=380&q=80" 
+                alt="Vintage Style Bicycle Detail" 
+                width={380} 
+                height={284}
+              />
         </div>
         <div className="grid-8 produto-info">
           <p>
